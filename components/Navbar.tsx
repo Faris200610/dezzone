@@ -6,9 +6,8 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "الرئيسية", href: "#" },
-  { label: "عروض اليوم", href: "#" },
-  { label: "كيف نعمل", href: "#" },
-  { label: "اتصل بنا", href: "#" },
+  { label: "عروض اليوم", href: "#products" },
+  { label: "اتصل بنا", href: "mailto:contact@dezzone.com" },
 ];
 
 export default function Navbar() {

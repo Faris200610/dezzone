@@ -1162,6 +1162,10 @@ video {
   --color-surface: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-background);
 }
