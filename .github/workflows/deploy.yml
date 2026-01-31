@@ -2,7 +2,8 @@ name: Deploy to Hostinger
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -23,7 +24,7 @@ jobs:
       - name: 🏗️ Build Project
         run: npm run build
 
--  name: 🚀 Deploy to Hostinger
+      - name: 🚀 Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
@@ -31,5 +32,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           local-dir: ./out/
-          server-dir: ./           
-          dangerous-clean-slate: false 
+          server-dir: ./
+          dangerous-clean-slate: false
