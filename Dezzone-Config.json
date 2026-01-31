@@ -1,0 +1,54 @@
+{
+    "meta": {
+      "title": "Dezzone | قارن واشترِ بأرخص سعر",
+      "description": "محرك البحث الذكي لمقارنة الأسعار بين أمازون، نون، والمتاجر السعودية. لا تدفع أكثر من اللازم."
+    },
+    "theme": {
+      "mode": "light",
+      "palette": {
+        "primary": "#003B5C", 
+        "secondary": "#FFB400", 
+        "accent": "#10B981",    
+        "background": "#F8FAFC", 
+        "text_main": "#1E293B"
+      }
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "style": "app_showcase",
+        "headline": "ليه تدفع أكتر والمنتج نفسه أرخص؟",
+        "subheadline": "Dezzone بيكشف لك أرخص سعر لنفس المنتج في أمازون، نون، وجرير في ثانية واحدة.",
+        "cta": "جرب الآن مجاناً",
+        "visual": "3D_Phone_Mockup_Showing_Comparison"
+      },
+      {
+        "id": "live_demo",
+        "style": "cards_grid",
+        "headline": "منتجات نرشحها لك (الأقل سعراً)",
+        "items": [
+          {
+            "name": "Apple iPhone 15 Pro",
+            "image": "iphone.png",
+            "stores": [
+              { "name": "Amazon", "price": "4200 SAR", "isCheapest": false },
+              { "name": "Noon", "price": "4150 SAR", "isCheapest": true, "link": "#" },
+              { "name": "Jarir", "price": "4300 SAR", "isCheapest": false }
+            ]
+          },
+          {
+            "name": "Sony WH-1000XM5",
+            "image": "headphone.png",
+            "stores": [
+              { "name": "Amazon", "price": "1200 SAR", "isCheapest": true, "link": "#" },
+              { "name": "Noon", "price": "1350 SAR", "isCheapest": false }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trust",
+        "text": "بصفتنا شركاء لأمازون والمتاجر الكبرى، نضمن لك صفقات حقيقية وموثوقة."
+      }
+    ]
+  }
